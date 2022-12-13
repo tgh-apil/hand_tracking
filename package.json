@@ -1,0 +1,31 @@
+{
+  "name": "hand-tracking-svelte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "@types/plotly.js": "^2.12.1",
+    "svelte": "^3.49.0",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@mediapipe/hands": "^0.4.1646424915",
+    "@sveltejs/pancake": "^0.0.18",
+    "@tensorflow-models/hand-pose-detection": "^2.0.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.18.0",
+    "@tensorflow/tfjs-converter": "^3.18.0",
+    "@tensorflow/tfjs-core": "^3.18.0",
+    "d3": "^7.6.1",
+    "layercake": "^7.0.0",
+    "plotly.js": "^2.13.1",
+    "plotly.js-dist": "^2.13.1",
+    "plotly.js-dist-min": "^2.13.1",
+    "svelte-frappe-charts": "^1.9.2"
+  }
+}
